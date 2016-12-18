@@ -1,6 +1,10 @@
 # STM32F429-Nucleo LWIP FREERTOS TrueSTUDIO STM32CubeMX
 This is a template lwIP and FreeRTOS project for the STM32F429-Nucleo (NUCLEO-F429ZI) board using STM32CubeMX and TrueSTUDIO.
 The website example I found on: http://www.carminenoviello.com/2016/01/22/getting-started-stm32-nucleo-f746zg
+Software versions I used (all on windows):
+* Atollic TrueSTUDIO 7.0.0
+* STM32CubeMX Version 4.18.0
+* STM32CubeF4 Firmware Package V1.14.0
 ## Tutorial:
 In STM32CubeMX:
 * New project
@@ -32,3 +36,4 @@ In Atollic Truestudio:
 ## Notes:
 * Leave all "USER CODE BEGIN" and "USER CODE END" comments and place your code only between these. This allows you to regenerate your code within STMcubeMX without losing your code.
 * When generating the code STMcubeMX asks if you want to use systick with FreeRTOS, this is possible but you can change this on pinout tab: sys -> Timebase Source: (choose whatever timer is available)
+* I am working on a Python script to convert html/css/js/ico files to a c string file.
